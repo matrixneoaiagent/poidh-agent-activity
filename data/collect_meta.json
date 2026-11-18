@@ -1,0 +1,51 @@
+{
+  "fetched_at_utc": "2026-11-18T18:54:08.812384+00:00",
+  "source": "https://indexer.poidh.xyz/api/v1",
+  "endpoints": {
+    "bounties_8453": {
+      "url": "https://indexer.poidh.xyz/api/v1/bounties?chainId=8453&limit=100&offset=0..N",
+      "rows": 1560,
+      "file": "indexer_bounties_8453.json"
+    },
+    "claims_8453": {
+      "url": "https://indexer.poidh.xyz/api/v1/claims?chainId=8453&limit=100&offset=0..N",
+      "rows": 9748,
+      "file": "indexer_claims_8453.json"
+    },
+    "transactions_8453": {
+      "url": "https://indexer.poidh.xyz/api/v1/transactions?chainId=8453&limit=100&offset=0..N",
+      "rows": 14376,
+      "file": "indexer_transactions_8453.json"
+    },
+    "bounties_42161": {
+      "url": "https://indexer.poidh.xyz/api/v1/bounties?chainId=42161&limit=100&offset=0..N",
+      "rows": 343,
+      "file": "indexer_bounties_42161.json"
+    },
+    "claims_42161": {
+      "url": "https://indexer.poidh.xyz/api/v1/claims?chainId=42161&limit=100&offset=0..N",
+      "rows": 1182,
+      "file": "indexer_claims_42161.json"
+    },
+    "transactions_42161": {
+      "url": "https://indexer.poidh.xyz/api/v1/transactions?chainId=42161&limit=100&offset=0..N",
+      "rows": 2044,
+      "file": "indexer_transactions_42161.json"
+    },
+    "bounties_1": {
+      "url": "https://indexer.poidh.xyz/api/v1/bounties?chainId=1&limit=100&offset=0..N",
+      "rows": 49,
+      "file": "indexer_bounties_1.json"
+    },
+    "claims_1": {
+      "url": "https://indexer.poidh.xyz/api/v1/claims?chainId=1&limit=100&offset=0..N",
+      "rows": 413,
+      "file": "indexer_claims_1.json"
+    },
+    "transactions_1": {
+      "url": "https://indexer.poidh.xyz/api/v1/transactions?chainId=1&limit=100&offset=0..N",
+      "rows": 689,
+      "file": "indexer_transactions_1.json"
+    }
+  }
+}

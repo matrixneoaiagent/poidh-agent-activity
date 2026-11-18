@@ -1,0 +1,536 @@
+{
+  "variants": {
+    "base_120s": [
+      {
+        "label": "base_120s",
+        "month": "2026-09",
+        "claims": 599,
+        "D1": 35,
+        "D2": 44,
+        "D3": 20,
+        "union": 75,
+        "union_pct": 12.5,
+        "cells": {
+          "D1D2": {
+            "a": 35,
+            "b": 44,
+            "both": 15,
+            "exp_indep": 2.6
+          },
+          "D1D3": {
+            "a": 35,
+            "b": 20,
+            "both": 8,
+            "exp_indep": 1.2
+          },
+          "D2D3": {
+            "a": 44,
+            "b": 20,
+            "both": 5,
+            "exp_indep": 1.5
+          }
+        },
+        "lp": {
+          "D1D2": 102.7,
+          "D1D3": 87.5,
+          "D2D3": 176.0
+        },
+        "lp_min": 87.5,
+        "lp_max": 176.0,
+        "est_primary": 87.5,
+        "est_primary_pct": 14.6,
+        "implied_missed_pct": 14.3
+      },
+      {
+        "label": "base_120s",
+        "month": "2026-10",
+        "claims": 856,
+        "D1": 40,
+        "D2": 125,
+        "D3": 44,
+        "union": 168,
+        "union_pct": 19.6,
+        "cells": {
+          "D1D2": {
+            "a": 40,
+            "b": 125,
+            "both": 18,
+            "exp_indep": 5.8
+          },
+          "D1D3": {
+            "a": 40,
+            "b": 44,
+            "both": 6,
+            "exp_indep": 2.1
+          },
+          "D2D3": {
+            "a": 125,
+            "b": 44,
+            "both": 20,
+            "exp_indep": 6.4
+          }
+        },
+        "lp": {
+          "D1D2": 277.8,
+          "D1D3": 293.3,
+          "D2D3": 275.0
+        },
+        "lp_min": 275.0,
+        "lp_max": 293.3,
+        "est_primary": 293.3,
+        "est_primary_pct": 34.3,
+        "implied_missed_pct": 42.7
+      },
+      {
+        "label": "base_120s",
+        "month": "2026-11",
+        "claims": 479,
+        "D1": 21,
+        "D2": 93,
+        "D3": 42,
+        "union": 133,
+        "union_pct": 27.8,
+        "cells": {
+          "D1D2": {
+            "a": 21,
+            "b": 93,
+            "both": 9,
+            "exp_indep": 4.1
+          },
+          "D1D3": {
+            "a": 21,
+            "b": 42,
+            "both": 5,
+            "exp_indep": 1.8
+          },
+          "D2D3": {
+            "a": 93,
+            "b": 42,
+            "both": 10,
+            "exp_indep": 8.2
+          }
+        },
+        "lp": {
+          "D1D2": 217.0,
+          "D1D3": 176.4,
+          "D2D3": 390.6
+        },
+        "lp_min": 176.4,
+        "lp_max": 390.6,
+        "est_primary": 176.4,
+        "est_primary_pct": 36.8,
+        "implied_missed_pct": 24.6
+      }
+    ],
+    "cadence_300s": [
+      {
+        "label": "cadence_300s",
+        "month": "2026-09",
+        "claims": 599,
+        "D1": 35,
+        "D2": 44,
+        "D3": 33,
+        "union": 88,
+        "union_pct": 14.7,
+        "cells": {
+          "D1D2": {
+            "a": 35,
+            "b": 44,
+            "both": 15,
+            "exp_indep": 2.6
+          },
+          "D1D3": {
+            "a": 35,
+            "b": 33,
+            "both": 8,
+            "exp_indep": 1.9
+          },
+          "D2D3": {
+            "a": 44,
+            "b": 33,
+            "both": 5,
+            "exp_indep": 2.4
+          }
+        },
+        "lp": {
+          "D1D2": 102.7,
+          "D1D3": 144.4,
+          "D2D3": 290.4
+        },
+        "lp_min": 102.7,
+        "lp_max": 290.4,
+        "est_primary": 144.4,
+        "est_primary_pct": 24.1,
+        "implied_missed_pct": 39.0
+      },
+      {
+        "label": "cadence_300s",
+        "month": "2026-10",
+        "claims": 856,
+        "D1": 40,
+        "D2": 125,
+        "D3": 59,
+        "union": 179,
+        "union_pct": 20.9,
+        "cells": {
+          "D1D2": {
+            "a": 40,
+            "b": 125,
+            "both": 18,
+            "exp_indep": 5.8
+          },
+          "D1D3": {
+            "a": 40,
+            "b": 59,
+            "both": 6,
+            "exp_indep": 2.8
+          },
+          "D2D3": {
+            "a": 125,
+            "b": 59,
+            "both": 24,
+            "exp_indep": 8.6
+          }
+        },
+        "lp": {
+          "D1D2": 277.8,
+          "D1D3": 393.3,
+          "D2D3": 307.3
+        },
+        "lp_min": 277.8,
+        "lp_max": 393.3,
+        "est_primary": 393.3,
+        "est_primary_pct": 46.0,
+        "implied_missed_pct": 54.5
+      },
+      {
+        "label": "cadence_300s",
+        "month": "2026-11",
+        "claims": 479,
+        "D1": 21,
+        "D2": 93,
+        "D3": 69,
+        "union": 154,
+        "union_pct": 32.2,
+        "cells": {
+          "D1D2": {
+            "a": 21,
+            "b": 93,
+            "both": 9,
+            "exp_indep": 4.1
+          },
+          "D1D3": {
+            "a": 21,
+            "b": 69,
+            "both": 5,
+            "exp_indep": 3.0
+          },
+          "D2D3": {
+            "a": 93,
+            "b": 69,
+            "both": 16,
+            "exp_indep": 13.4
+          }
+        },
+        "lp": {
+          "D1D2": 217.0,
+          "D1D3": 289.8,
+          "D2D3": 401.1
+        },
+        "lp_min": 217.0,
+        "lp_max": 401.1,
+        "est_primary": 289.8,
+        "est_primary_pct": 60.5,
+        "implied_missed_pct": 46.9
+      }
+    ],
+    "excl_1550": [
+      {
+        "label": "excl_1550",
+        "month": "2026-09",
+        "claims": 599,
+        "D1": 35,
+        "D2": 44,
+        "D3": 20,
+        "union": 75,
+        "union_pct": 12.5,
+        "cells": {
+          "D1D2": {
+            "a": 35,
+            "b": 44,
+            "both": 15,
+            "exp_indep": 2.6
+          },
+          "D1D3": {
+            "a": 35,
+            "b": 20,
+            "both": 8,
+            "exp_indep": 1.2
+          },
+          "D2D3": {
+            "a": 44,
+            "b": 20,
+            "both": 5,
+            "exp_indep": 1.5
+          }
+        },
+        "lp": {
+          "D1D2": 102.7,
+          "D1D3": 87.5,
+          "D2D3": 176.0
+        },
+        "lp_min": 87.5,
+        "lp_max": 176.0,
+        "est_primary": 87.5,
+        "est_primary_pct": 14.6,
+        "implied_missed_pct": 14.3
+      },
+      {
+        "label": "excl_1550",
+        "month": "2026-10",
+        "claims": 856,
+        "D1": 40,
+        "D2": 125,
+        "D3": 44,
+        "union": 168,
+        "union_pct": 19.6,
+        "cells": {
+          "D1D2": {
+            "a": 40,
+            "b": 125,
+            "both": 18,
+            "exp_indep": 5.8
+          },
+          "D1D3": {
+            "a": 40,
+            "b": 44,
+            "both": 6,
+            "exp_indep": 2.1
+          },
+          "D2D3": {
+            "a": 125,
+            "b": 44,
+            "both": 20,
+            "exp_indep": 6.4
+          }
+        },
+        "lp": {
+          "D1D2": 277.8,
+          "D1D3": 293.3,
+          "D2D3": 275.0
+        },
+        "lp_min": 275.0,
+        "lp_max": 293.3,
+        "est_primary": 293.3,
+        "est_primary_pct": 34.3,
+        "implied_missed_pct": 42.7
+      },
+      {
+        "label": "excl_1550",
+        "month": "2026-11",
+        "claims": 461,
+        "D1": 10,
+        "D2": 87,
+        "D3": 39,
+        "union": 121,
+        "union_pct": 26.2,
+        "cells": {
+          "D1D2": {
+            "a": 10,
+            "b": 87,
+            "both": 4,
+            "exp_indep": 1.9
+          },
+          "D1D3": {
+            "a": 10,
+            "b": 39,
+            "both": 2,
+            "exp_indep": 0.8
+          },
+          "D2D3": {
+            "a": 87,
+            "b": 39,
+            "both": 9,
+            "exp_indep": 7.4
+          }
+        },
+        "lp": {
+          "D1D2": 217.5,
+          "D1D3": 195.0,
+          "D2D3": 377.0
+        },
+        "lp_min": 195.0,
+        "lp_max": 377.0,
+        "est_primary": 195.0,
+        "est_primary_pct": 42.3,
+        "implied_missed_pct": 37.9
+      }
+    ],
+    "excl_1396": [
+      {
+        "label": "excl_1396",
+        "month": "2026-09",
+        "claims": 397,
+        "D1": 33,
+        "D2": 42,
+        "D3": 18,
+        "union": 71,
+        "union_pct": 17.9,
+        "cells": {
+          "D1D2": {
+            "a": 33,
+            "b": 42,
+            "both": 14,
+            "exp_indep": 3.5
+          },
+          "D1D3": {
+            "a": 33,
+            "b": 18,
+            "both": 7,
+            "exp_indep": 1.5
+          },
+          "D2D3": {
+            "a": 42,
+            "b": 18,
+            "both": 4,
+            "exp_indep": 1.9
+          }
+        },
+        "lp": {
+          "D1D2": 99.0,
+          "D1D3": 84.9,
+          "D2D3": 189.0
+        },
+        "lp_min": 84.9,
+        "lp_max": 189.0,
+        "est_primary": 84.9,
+        "est_primary_pct": 21.4,
+        "implied_missed_pct": 16.3
+      },
+      {
+        "label": "excl_1396",
+        "month": "2026-10",
+        "claims": 856,
+        "D1": 40,
+        "D2": 125,
+        "D3": 44,
+        "union": 168,
+        "union_pct": 19.6,
+        "cells": {
+          "D1D2": {
+            "a": 40,
+            "b": 125,
+            "both": 18,
+            "exp_indep": 5.8
+          },
+          "D1D3": {
+            "a": 40,
+            "b": 44,
+            "both": 6,
+            "exp_indep": 2.1
+          },
+          "D2D3": {
+            "a": 125,
+            "b": 44,
+            "both": 20,
+            "exp_indep": 6.4
+          }
+        },
+        "lp": {
+          "D1D2": 277.8,
+          "D1D3": 293.3,
+          "D2D3": 275.0
+        },
+        "lp_min": 275.0,
+        "lp_max": 293.3,
+        "est_primary": 293.3,
+        "est_primary_pct": 34.3,
+        "implied_missed_pct": 42.7
+      },
+      {
+        "label": "excl_1396",
+        "month": "2026-11",
+        "claims": 479,
+        "D1": 21,
+        "D2": 93,
+        "D3": 42,
+        "union": 133,
+        "union_pct": 27.8,
+        "cells": {
+          "D1D2": {
+            "a": 21,
+            "b": 93,
+            "both": 9,
+            "exp_indep": 4.1
+          },
+          "D1D3": {
+            "a": 21,
+            "b": 42,
+            "both": 5,
+            "exp_indep": 1.8
+          },
+          "D2D3": {
+            "a": 93,
+            "b": 42,
+            "both": 10,
+            "exp_indep": 8.2
+          }
+        },
+        "lp": {
+          "D1D2": 217.0,
+          "D1D3": 176.4,
+          "D2D3": 390.6
+        },
+        "lp_min": 176.4,
+        "lp_max": 390.6,
+        "est_primary": 176.4,
+        "est_primary_pct": 36.8,
+        "implied_missed_pct": 24.6
+      }
+    ]
+  },
+  "wallet_level": [
+    {
+      "month": "2026-09",
+      "wallets_with_claims": 195,
+      "D1": 10,
+      "D2": 23,
+      "D3": 5,
+      "union": 28,
+      "union_pct": 14.4,
+      "lp": {
+        "D1D2": 32.9,
+        "D1D3": 50.0,
+        "D2D3": 38.3
+      }
+    },
+    {
+      "month": "2026-10",
+      "wallets_with_claims": 278,
+      "D1": 22,
+      "D2": 38,
+      "D3": 12,
+      "union": 51,
+      "union_pct": 18.3,
+      "lp": {
+        "D1D2": 69.7,
+        "D1D3": 88.0,
+        "D2D3": 57.0
+      }
+    },
+    {
+      "month": "2026-11",
+      "wallets_with_claims": 170,
+      "D1": 18,
+      "D2": 40,
+      "D3": 10,
+      "union": 48,
+      "union_pct": 28.2,
+      "lp": {
+        "D1D2": 60.0,
+        "D1D3": 30.0,
+        "D2D3": 57.1
+      }
+    }
+  ]
+}
